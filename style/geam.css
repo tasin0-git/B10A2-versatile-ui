@@ -227,26 +227,22 @@ table{
 }
 .traner-conteiner{
     text-align: center;
-    margin-top: 100px;
 }
-.trainer-1{
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-evenly; */
-    width: 1440px;
-    height: 272px;
-   
+.trainer-section{
+    max-width: 1440px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
 }
-.trainer-img{
-    width: 326.67px;
-    height: 272px
-    
-}
-.trainer-container{
-    max-width:1440px;
-    margin: 0 auto;
+.container-trainer{
+    position: absolute;
 
 }
-.content{
-    margin-right: 20px;
+.container-img{
+    width: 326.67px;
+    height: 272px;
+    position: static;
+    display: block;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
 }
