@@ -151,4 +151,27 @@ header{
 }
 .content{
     text-align: center;
+    margin-top: 50px;
+}
+.img-run{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+.saction-2{
+    max-width:1440px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+.div-hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.div-hero-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
 }
