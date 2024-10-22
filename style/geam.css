@@ -1,4 +1,18 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    }
+    .italianno-font{
+        font-family: "Italianno", cursive;
+        font-weight: 900;
+        font-style: normal;
+      }
+  
+ .navbar {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -26,7 +40,7 @@
     
 }
 header{
-    background-color: #B9B9B9;
+  background-color:rgb(22, 22, 22)
 }
 .brand{
     color: rgb(230, 83, 60);
@@ -40,4 +54,85 @@ header{
     border-radius: 46px;
    padding-top: 15px;
    padding-left: 35px;
+}
+.body{
+    background-color: black;
+}
+.title{
+    color: rgb(255, 255, 255);
+}
+.description{
+    color: rgb(255, 255, 255 ,0.5);
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1440px;
+    margin: 0 auto;
+}
+.first-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+
+}
+.scound-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color:rgb(29, 27, 27);
+    border-radius:42px;
+    width: 224px;
+    height: 54px;
+
+
+}
+.nokta-1{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    top: 250px;
+    right:130px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+
+
+}
+.nokta-d{
+    color: rgba(255, 255, 255, 0.65);
+}
+.nokta-2{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 193px;
+    top: +500px;
+    right: +500px;
+    text-align: center;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+    
+
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
 }
