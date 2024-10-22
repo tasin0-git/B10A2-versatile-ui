@@ -136,3 +136,19 @@ header{
     background: rgb(230, 83, 60);
     border-radius: 50%;
 }
+.main-container{
+    text-align: center;
+    margin-top: 100px;
+}
+.main-container-2{
+    display: flex;
+    max-width:1440px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.img{
+    border-radius: 50%;
+}
+.content{
+    text-align: center;
+}
