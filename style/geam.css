@@ -60,6 +60,8 @@ header{
 }
 .title{
     color: rgb(255, 255, 255);
+    
+    font-weight: 800;
 }
 .description, .title-2{
     color: rgb(255, 255, 255 ,0.5);
@@ -241,7 +243,7 @@ table{
     position: absolute;
     bottom: 10px;
     left: 10px;
-
+    
 }
 .full-content{
     height: 604px;
@@ -263,4 +265,21 @@ table{
     justify-content: center;
     padding-left: 20px;
     
+}
+.footer{
+    width:cover;
+    height: 355px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.finish{
+    text-align: center;
+    margin-top: 50px;
+}
+.class{
+    margin-top: 50px;
 }
