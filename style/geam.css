@@ -61,7 +61,7 @@ header{
 .title{
     color: rgb(255, 255, 255);
 }
-.description{
+.description, .title-2{
     color: rgb(255, 255, 255 ,0.5);
 
 }
@@ -228,21 +228,39 @@ table{
 .traner-conteiner{
     text-align: center;
 }
-.trainer-section{
-    max-width: 1440px;
-    height: 604px;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1);
-}
-.container-trainer{
-    position: absolute;
+.trainer-container{
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+   
+    
+
 
 }
-.container-img{
+.one{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+.full-content{
+    height: 604px;
+    max-width: 1060px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    max-width:1060px;
+    margin: 100px auto;
+
+
+}
+.trainer-img{
+    border-radius: 18px;
     width: 326.67px;
     height: 272px;
-    position: static;
-    display: block;
-    border-radius: 18px;
-    background: rgba(0, 0, 0, 0.2),url(image);
+}
+.container-1, .container-2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    
 }
